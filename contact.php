@@ -11,8 +11,8 @@
 <body>
     <!-- Navbar -->
     <?php include('navbar.php');?>
-    <div class="container main-container">    
-        <div class="row">    
+    <div class="container main-container">
+        <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>Enter your contact info and message here.</h1>
             </div>
@@ -23,6 +23,10 @@
                     <div class="form-group">
                         <label for="InputEmail">Email address</label>
                         <input type="email" class="form-control" id="InputEmail" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputName">Name</label>
+                        <input type="text" class="form-control" id="InputName" placeholder="Enter name" name="name" required />
                     </div>
                     <div class="form-group">
                         <label for="InputComments">Questions & Comments</label>

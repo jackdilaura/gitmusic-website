@@ -1,3 +1,17 @@
 .main-container {
     margin-top: 50px;
 }
+body {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1.2px;
+}
+/* navbar */
+.navbar-inverse {
+    background-color:#12124E;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background-color:#0C0C38;
+}
+.checkbox:first-of-type, .radio:first-of-type {
+  margin-top:0px;
+}
