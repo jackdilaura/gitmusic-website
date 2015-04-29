@@ -7,13 +7,17 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Concept</title>
     <?php include('css_js.php'); ?>
-  
+
   </head>
   <body>
       <!-- Navbar -->
       <?php include('navbar.php');?>
       <div class="container main-container">
-          <h1>Project Concept</h1>
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                <h1>Project Concept</h1>
+              </div>
+          </div>
       </div>
   </body>
 </html>
