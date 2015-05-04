@@ -11,10 +11,10 @@
 <body>
 <!-- Navbar -->
     <?php include('navbar.php');?>
-    <div class="container main-container">
+    <div class="container main-container cont-back">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1>A quick survey of your thoughts on the project.</h1>
+                <h1 class="title">A quick survey of your thoughts on the project.</h1>
             </div>
         </div>
         <form action="fb_processor_2.php" method="post" class="form-horizontal">

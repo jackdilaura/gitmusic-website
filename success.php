@@ -12,10 +12,10 @@
   <body>
       <!-- Navbar -->
       <?php include('navbar.php');?>
-      <div class="container main-container">
+      <div class="container main-container cont-back">
           <div class="row">
               <div class="col-lg-12 text-center">
-                  <h1>Your feedback has been sent! Thanks for your input.</h1>
+                  <h1 class="title">Your feedback has been sent! Thanks for your input.</h1>
                   <div class="form-group">
                       <a class="btn btn-default" href="/gitmusic/index.php" role="button">Click here to return to the homepage</a>
                   </div>

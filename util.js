@@ -34,3 +34,11 @@ function checkForm(form) {
   }
   return pass;
 }
+
+$(window).scroll(function() {
+    if ($(".navbar-inverse").offset().top > 10) {
+        $(".navbar-inverse").addClass("top-nav-collapse");
+    } else {
+        $(".navbar-inverse").removeClass("top-nav-collapse");
+    }
+});

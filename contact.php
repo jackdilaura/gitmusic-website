@@ -11,10 +11,10 @@
 <body>
     <!-- Navbar -->
     <?php include('navbar.php');?>
-    <div class="container main-container">
+    <div class="container main-container cont-back contact-div">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1>Enter your contact info and message here.</h1>
+                <h1 class="title">Enter your contact info and message here.</h1>
             </div>
         </div>
         <form>

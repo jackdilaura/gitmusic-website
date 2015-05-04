@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,18 +12,20 @@
   <body>
       <!-- Navbar -->
       <?php include('navbar.php');?>
-      <div class="container main-container">
-        <div class="row">
-          <div class="col md-6">
-            <h1><strong>What is gitmusic?</strong></h1>
-            <h2>gitmusic is an online source of collaboration, sharing, and discovery for musicians and music enthusiasts. Click the links above to learn about different aspects of the project.</h2>
+      <div class="container-fluid main-container">
+          <div class="row">
+            <div class="col md-6 home-col">
+              <div class="container">
+                <h1 class="home-title">What is gitmusic?</h1>
+                <h2 class="home-p">gitmusic is an online source of collaboration, sharing, and discovery for musicians and music enthusiasts. Click the links above to learn about different aspects of the project.</h2>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="row">
+        <!-- <div class="row">
           <div class="col md-12">
-            <img src="images\IMG1.jpg" alt="Paper Prototype" width="100%">
+            <img src="images\IMG1.jpg" class="img-responsive img-main" alt="Paper Prototype" width="100%" margin-bottom=50px>
           </div>
-        </div>
+        </div> -->
       </div>
   </body>
 </html>
